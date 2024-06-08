@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background-color: white;
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@ body {
 .text-main {
   font-size: 62px;
   margin: 20px 0;
-  font-weight: 700;
+  font-weight: 650;
 }
 
 .text-desc {
@@ -38,14 +38,14 @@ body {
   font-weight: 400;
 }
 
-.price-text {
-  font-size: 14px;
+.text-price {
+  font-size: 16px;
   color: grey;
   margin: 20px 0;
 }
 
 .buy-button {
-  background-color: #0070c9;
+  background-color: #0072E3;
   color: white;
   border: none;
   padding: 10px 20px;
