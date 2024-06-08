@@ -1,0 +1,19 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .photo-item {
+    flex: 0 0 calc(25% - 20px); /* Adjust width as needed */
+    margin: 10px;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo-caption {
+    text-align: center;
+  }
+  

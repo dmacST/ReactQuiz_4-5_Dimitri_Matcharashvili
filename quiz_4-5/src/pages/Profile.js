@@ -1,10 +1,12 @@
 import React from 'react';
+import Footer from '../components/Footer';
+
 
 function Profile() {
   return (
     <div className="container">
-      <h1 className="medium-text">Profile</h1>
-      <p className="small-text">This is the Profile page.</p>
+      <h1 className="medium-text">Made by Dimitri Matcharashvili</h1>
+      <Footer />
     </div>
   );
 }
