@@ -9,6 +9,34 @@ body {
   min-height: 100vh;
 }
 
+
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0070c9;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -69,4 +97,17 @@ body {
 .iphone-image {
   max-width: 150%;
   height: auto;
+}
+
+
+.gallery-button {
+  background-color: #0072E3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 20px 20px;
+  transition: background-color 0.3s ease;
 }
