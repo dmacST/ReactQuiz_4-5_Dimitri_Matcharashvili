@@ -1,38 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-title {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-main {
+  font-size: 62px;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.text-desc {
+  font-size: 16px;
+  margin: 20px 0;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.price-text {
+  font-size: 14px;
+  color: grey;
+  margin: 20px 0;
+}
+
+.buy-button {
+  background-color: #0070c9;
   color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.buy-button:hover {
+  background-color: #005bb5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.iphone-image {
+  max-width: 150%;
+  height: auto;
 }
