@@ -19,11 +19,11 @@ function Gallery() {
 
   return (
     <div className="container">
-      <h1 className="medium-text">Gallery</h1>
-      <div className="gallery-container">
+      <h1 className="medium-text" style={{ textAlign: 'center' }}>Gallery</h1>
+      <div className="gallery-container" style={{ display: 'flex', flexWrap: 'wrap' }}>
         {photos.map(photo => (
-          <div key={photo.id} className="photo-item">
-            <img src={photo.thumbnailUrl} alt={photo.title} />
+          <div key={photo.id} className="photo-item" style={{ flex: '0 0 25%', margin: '10px', border: '1px solid grey', padding: '10px', textAlign: 'center' }}>
+            <img src={photo.thumbnailUrl} alt={photo.title} style={{ width: '100%', height: 'auto', marginBottom: '10px' }} />
             <p className="photo-caption">{photo.title}</p>
           </div>
         ))}
